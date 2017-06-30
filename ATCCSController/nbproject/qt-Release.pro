@@ -1,17 +1,17 @@
 # This file is generated automatically. Do not edit.
 # Use project properties -> Build -> Qt -> Expert -> Custom Definitions.
-TEMPLATE = lib
+TEMPLATE = app
 DESTDIR = dist/Release/GNU-Linux
-TARGET = QWUIKit
+TARGET = ATCCSController
 VERSION = 1.0.0
 CONFIG -= debug_and_release app_bundle lib_bundle
-CONFIG += dll release 
+CONFIG += release 
 PKGCONFIG +=
 QT = core gui widgets
-SOURCES += src/QWFramelessWindow.cpp src/QWMessageBox.cpp src/QWPopupWindowTitleBar.cpp src/QWTitleBar.cpp src/QWTitleBarBuilder.cpp
-HEADERS += src/QWFramelessWindow.h src/QWMessageBox.h src/QWPopupWindowTitleBar.h src/QWTitleBar.h src/QWTitleBarBuilder.h src/private/qwtitlebar_p.h
+SOURCES += main.cpp src/ATCCSMainTitle.cpp
+HEADERS += src/ATCCSMainTitle.h
 FORMS +=
-RESOURCES += resource/qwuikit.qrc
+RESOURCES +=
 TRANSLATIONS +=
 OBJECTS_DIR = build/Release/GNU-Linux
 MOC_DIR = 

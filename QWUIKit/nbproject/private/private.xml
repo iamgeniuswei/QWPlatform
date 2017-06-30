@@ -4,4 +4,21 @@
         <activeConfTypeElem>5</activeConfTypeElem>
         <activeConfIndexElem>0</activeConfIndexElem>
     </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/QWPopupWindowTitleBar.cpp</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/QWFramelessWindow.h</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/QWFramelessWindow.cpp</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/private/qwtitlebar_p.h</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/QWTitleBar.h</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/QWTitleBar.cpp</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/resource/qwuikit.qrc</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/QWTitleBarBuilder.cpp</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/QWPopupWindowTitleBar.h</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/QWMessageBox.cpp</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/QWTitleBarBuilder.h</file>
+            <file>file:/home/lenovo/Project/QWPlatform/QWUIKit/src/QWMessageBox.h</file>
+        </group>
+    </open-files>
 </project-private>

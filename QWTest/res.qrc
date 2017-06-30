@@ -9,5 +9,6 @@
                 <file>images/copy.png</file>
         -->
         <file alias="logo">img/logo.png</file>
+        <file alias="close">img/close.png</file>
     </qresource>
 </RCC>

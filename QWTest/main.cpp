@@ -16,6 +16,9 @@
 #include <QLabel>
 #include <QFile>
 #include <QPushButton>
+#include "QWPopupWindowTitleBar.h"
+#include "QWFramelessWindow.h"
+#include <QMessageBox>
 int main(int argc, char *argv[])
 {
     // initialize resources, if needed
@@ -23,7 +26,7 @@ int main(int argc, char *argv[])
 
     QApplication app(argc, argv);
 
-        QFile qss(":/qss/version1");
+    QFile qss(":/qss/version1");
     qss.open(QFile::ReadOnly);
     qApp->setStyleSheet(qss.readAll());
     qss.close();
@@ -31,18 +34,37 @@ int main(int argc, char *argv[])
     
     
     // create and show your widgets here
-    QWTitleBar w;
-    QLabel *label = new QLabel;
-    label->setPixmap(QPixmap(":/img/logo"));
-    w.addTitleLogo(label);
-    QLabel *head = new QLabel(QObject::tr("dfdsfsfas"));
-    w.addTitleMainHead(head);
-        QLabel *head1 = new QLabel(QObject::tr("dfdsfsfas"));
-    w.addTitleSubHead(head1);
     
-    QPushButton *btn = new QPushButton("dfd");
-    w.addSystemButton(btn);
+//    QWFramelessWindow w;
+//    w.show();
+
+    
+    
+    
+    QWPopupWindowTitleBar w;
+    QPixmap pix(":/img/logo");
+    w.setLogo(pix);
+    w.setTitleObjectName("MTtext");
+    w.setCloseBtnObjectName("close");
     w.show();
+    
+    
+    
+    
+//    QWTitleBar w;
+//    QLabel *label = new QLabel;
+//    label->setPixmap(QPixmap(":/img/logo"));
+//    w.addTitleLogo(label);
+//    QLabel *head = new QLabel(QObject::tr("dfdsfsfas"));
+//    w.addTitleMainHead(head);
+//        QLabel *head1 = new QLabel(QObject::tr("dfdsfsfas"));
+//    w.addTitleSubHead(head1);
+//    
+//    QPushButton *btn = new QPushButton("dfd");
+//    
+//    w.addSystemButton(btn);
+//    w.setWindowOpacity(0.6);
+//    w.show();
 
 
     return app.exec();

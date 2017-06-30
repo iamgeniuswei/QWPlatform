@@ -11,7 +11,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
 
 QWidget
 {
-    background-color:green;
+    background-color:rgb(231,233,240);
 }
 
 
@@ -32,13 +32,20 @@ QLabel#test222
     qproperty-pixmap:url(:/img/222);
 }
 
+QToolButton#close
+{
+    width:20px;
+    height:20px;
+    border-image:url(:/img/close);
+}
+
 
 QLabel#MTtext
 {
-    font-family:"方正大标宋简体";
+    font-family:"Ping Hei";
     qproperty-text:"ATCCS";
     color:white;
-    font-size:30px;
+    font-size:20px;
 }
 
 QLabel#MTsubtext
