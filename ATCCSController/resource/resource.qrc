@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file alias="version1">qss/version1.qss</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file alias="logo">img/logo.png</file>
+        <file alias="close">img/close.png</file>
+        <file alias="gimbal">img/gimbal.png</file>
+        <file alias="ccd">img/ccd.png</file>
+        <file alias="focus">img/focus.png</file>
+        <file alias="filter">img/filter.png</file>
+        <file alias="dome">img/dome.png</file>
+        <file alias="plan">img/plan.png</file>
+    </qresource>
+    <qresource prefix="/lang">
+        <file alias="lang_zh">lang/software.qm</file>
+        <file alias="zh_CN">lang/zh_CN.qm</file>
+    </qresource>
+</RCC>
