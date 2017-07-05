@@ -28,6 +28,13 @@ public:
     ATCCSMainTitle& operator=(const ATCCSMainTitle&& orig) = delete;
     virtual ~ATCCSMainTitle();
     void initializeUI();
+    void initializeSignal();
+
+signals:
+    void settingBtnClicked();
+    void closeBtnClicked();
+
+public slots:
 
 protected:
 
@@ -36,6 +43,7 @@ private:
     QLabel *_mainHeadLabel;
     QLabel *_subHeadLabel;
     QToolButton *_closeBtn;
+    QToolButton *_settingBtn;
     QGridLayout *_mainLayout;
 };
 

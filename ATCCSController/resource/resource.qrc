@@ -11,6 +11,19 @@
         <file alias="filter">img/filter.png</file>
         <file alias="dome">img/dome.png</file>
         <file alias="plan">img/plan.png</file>
+        <file alias="close_pressed">img/close_pressed.png</file>
+        <file alias="close_normal">img/close_normal.png</file>
+        <file alias="close_hover">img/close_hover.png</file>
+        <file alias="setting_pressed">img/setting_pressed.png</file>
+        <file alias="setting_normal">img/setting_normal.png</file>
+        <file alias="setting_hover">img/setting_hover.png</file>
+        <file alias="setting_logo">img/setting_logo.png</file>
+        <file alias="affirm">img/affirm.png</file>
+        <file alias="test">img/test.png</file>
+        <file alias="about_logo">img/about_logo.png</file>
+        <file alias="line_selected">img/line_selected.png</file>
+        <file alias="line_normal">img/line_normal.png</file>
+        <file alias="dot_normal">img/dot_normal.png</file>
     </qresource>
     <qresource prefix="/lang">
         <file alias="lang_zh">lang/software.qm</file>

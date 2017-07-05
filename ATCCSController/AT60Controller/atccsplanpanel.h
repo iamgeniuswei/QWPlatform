@@ -2,6 +2,7 @@
 #define ATCCSPLANPANEL_H
 
 #include <QWidget>
+#include <array>
 class QLabel;
 class QGridLayout;
 class ATCCSPlanPanel : public QWidget
@@ -20,8 +21,9 @@ private:
     QLabel *_planLogo;
     QLabel *_curPlanLb;
     QLabel *_prevPlanLb;
-    QLabel *_valueLabel[3][13];
+    QLabel *_valueLabel[3][14];
     QGridLayout *_mainLayout;
+
 
 };
 

@@ -29,14 +29,28 @@ SOURCES += \
     ATCCSDevicePanel.cpp \
     ATCCSMainTitle.cpp \
     ATCCSMainWindow.cpp \
-    atccsplanpanel.cpp
+    atccsplanpanel.cpp \
+    atccspopuptitle.cpp \
+    atccssettingwindow.cpp \
+    atccsdbsettingpanel.cpp \
+    atccsaddresssettingpanel.cpp \
+    atccsaboutpanel.cpp \
+    qwtimeline.cpp \
+    qwtimelinewidget.cpp
 
 HEADERS += \
         widget.h \
     ATCCSDevicePanel.h \
     ATCCSMainTitle.h \
     ATCCSMainWindow.h \
-    atccsplanpanel.h
+    atccsplanpanel.h \
+    atccspopuptitle.h \
+    atccssettingwindow.h \
+    atccsdbsettingpanel.h \
+    atccsaddresssettingpanel.h \
+    atccsaboutpanel.h \
+    qwtimeline.h \
+    qwtimelinewidget.h
 
 RESOURCES += \
     ../resource/resource.qrc

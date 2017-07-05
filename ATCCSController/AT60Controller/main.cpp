@@ -12,11 +12,18 @@
  */
 
 #include <QApplication>
+#include <QObject>
 #include <QFile>
 #include <QTranslator>
 #include "ATCCSMainTitle.h"
 #include "ATCCSMainWindow.h"
 #include "ATCCSDevicePanel.h"
+#include "atccspopuptitle.h"
+#include "atccssettingwindow.h"
+#include "atccsdbsettingpanel.h"
+#include "atccsaddresssettingpanel.h"
+#include "atccsaboutpanel.h"
+#include "qwtimeline.h"
 int main(int argc, char *argv[])
 {
     // initialize resources, if needed
@@ -38,8 +45,23 @@ int main(int argc, char *argv[])
 //    ATCCSMainTitle w;
 //    w.show();
     
-    ATCCSMainWindow w;
+//    ATCCSMainWindow w;
+//    w.show();
+
+//    ATCCSPopupTitle w;
+//    w.setLogo("atccs_setting_logo");
+//    w.setTitleText(QObject::tr("Setting"));
+//    w.show();
+//    ATCCSSettingWindow w;
+//    w.show();
+
+    QWTimeLine w;
+    w.addEndPoint("Start");
+    w.addEndPoint("END");
     w.show();
+
+//    ATCCSAboutPanel w;
+//    w.show();
     
 //    ATCCSDevicePanel w;
 //    w.setLogoObjectName("atccs_dp_gimbal");

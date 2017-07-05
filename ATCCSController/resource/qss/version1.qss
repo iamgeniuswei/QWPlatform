@@ -35,9 +35,137 @@ QLabel#atccs_mt_shead
 
 QToolButton#atccs_mt_close
 {
-    border-image:url(:/img/close);
+    border-image:url(:/img/close_normal);
+}
+QToolButton#atccs_mt_close:hover
+{
+    border-image:url(:/img/close_hover);
+}
+QToolButton#atccs_mt_close:pressed
+{
+    border-image:url(:/img/close_pressed);
+}
+QToolButton#atccs_mt_setting
+{
+    border-image:url(:/img/setting_normal);
+}
+QToolButton#atccs_mt_setting:hover
+{
+    border-image:url(:/img/setting_hover);
+}
+QToolButton#atccs_mt_setting:pressed
+{
+    border-image:url(:/img/setting_pressed);
 }
 
+QLineEdit
+{
+    font-family:"Ping Hei";
+    color:black;
+    font-size:18px;
+}
+
+QPushButton#affirm_btn
+{
+    qproperty-icon:url(:/img/affirm);
+}
+QPushButton#test_btn
+{
+    qproperty-icon:url(:/img/test);
+}
+
+QWidget#atccs_pt
+{
+    background-color:rgb(38,42,51);
+}
+QLabel#atccs_pt_head
+{
+    font-family:"Ping Hei";
+    color:white;
+    font-size:18px;
+}
+QToolButton#atccs_pt_close
+{
+    border-image:url(:/img/close_normal);
+}
+QToolButton#atccs_pt_close:hover
+{
+    border-image:url(:/img/close_hover);
+}
+QToolButton#atccs_pt_close:pressed
+{
+    border-image:url(:/img/close_pressed);
+}
+
+QLabel#atccs_setting_logo
+{
+    qproperty-pixmap:url(:/img/setting_logo);
+}
+
+QLabel#atccs_about_title
+{
+    font-family:"Ping Hei";
+    qproperty-text:"60cm望远镜控制器";
+    color:rgb(86,187,117);
+    font-size:48px;
+}
+QLabel#atccs_about_version
+{
+    font-family:"Ping Hei";
+    qproperty-text:"Version 1.0.0(Build:20170705)";
+    color:rgb(86,187,117);
+    font-size:18px;
+}
+
+
+QLabel#atccs_timeline_dot_normal
+{
+    qproperty-pixmap:url(:/img/dot_normal);
+}
+QLabel#atccs_timeline_line_normal
+{
+    qproperty-pixmap:url(:/img/line_normal);
+}
+QLabel#atccs_timeline_line_selected
+{
+    qproperty-pixmap:url(:/img/line_selected);
+}
+
+QListWidget::item::selected
+{
+    background:#FFFFFF;
+}
+
+
+QLabel#atccs_about_logo
+{
+    qproperty-pixmap:url(:/img/about_logo);
+}
+
+QWidget#atccs_setting_window
+{
+    background-color:white;
+}
+QScrollArea
+{
+    background-color:transparent;
+}
+QScrollBar
+{
+    background-color:transparent;
+}
+
+QScrollBar:up-arrow
+{
+    border:none;
+    background:transparent;
+}
+
+QScrollBar::handle
+{
+    background:light-gray;
+    width:3px;
+}
 QWidget#atccs_mw
 {
     background-color:rgb(243,243,243);
@@ -58,6 +186,12 @@ QLabel#atccs_pp_label
     font-family:"Ping Hei";
     color:rgb(86,187,117);
     font-size:48px;
+}
+QLabel#atccs_pp_value
+{
+    font-family:"Ping Hei";
+    color:rgb(255,255,255);
+    font-size:18px;
 }
 
 QLabel#atccs_dp_devicename
